@@ -1,0 +1,29 @@
+{
+  "name": "internal-storage",
+  "version": "0.1.0",
+  "description": "The error type manager",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "clean": "rm -rf build"
+  },
+  "devDependencies": {
+    "tslint": "^5.7.0",
+    "tslint-eslint-rules": "^4.1.1",
+    "typescript": "^2.5.2"
+  },
+  "dependencies": {},
+  "directories": {
+    "lib": "./build"
+  },
+  "files": [
+    "./build/**"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bradleat/internal-storage.git"
+  }
+}

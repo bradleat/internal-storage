@@ -1,0 +1,15 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2015",
+        "lib": ["es2015"],
+        "noImplicitAny": false,
+        // "sourceMap": true,
+        // "inlineSources": true,
+        "declaration": true,
+        "inlineSourceMap": true,
+        "allowSyntheticDefaultImports": true,
+        "outDir": "./build/"
+    }
+}
