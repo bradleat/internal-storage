@@ -1,7 +1,7 @@
 {
   "name": "internal-storage",
   "version": "0.1.0",
-  "description": "The error type manager",
+  "description": "Private internal storage for a scope using Weak Maps",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "license": "MIT",
